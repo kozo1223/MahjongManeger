@@ -15,15 +15,36 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		Button btn = (Button)findViewById(R.id.btnNew);
+
+		Button btn = (Button) findViewById(R.id.btnNew);
 		btn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+				Intent intent = new Intent(MainActivity.this,
+						SettingActivity.class);
 				startActivity(intent);
-				}
-			});
+			}
+		});
+
+		Button btn2 = (Button) findViewById(R.id.btnEdit);
+		btn2.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this,
+						HalfEndActivity.class);
+				startActivity(intent);
+			}
+		});
+
+		Button btn3 = (Button) findViewById(R.id.btnSet);
+		btn3.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this,
+						RecordActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
@@ -44,7 +65,5 @@ public class MainActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
-	
-	
+
 }
