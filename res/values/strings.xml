@@ -6,5 +6,15 @@
     <string name="newGame">New Game</string>
     <string name="editGame">Edit Game</string>
     <string name="showScore">Score</string>
-
+    <string name="titleScreen">タイトル画面</string>
+    <string name="newGameStart">Start Game</string>
+    <string name="endHalfGame">半荘精算</string>
+    <string name="endGame">ゲーム終了</string>
+    <string name="uma">ウマ</string>
+	<string name="player1">player1:</string>
+	<string name="player2">player2:</string>
+	<string name="player3">player3:</string>
+	<string name="player4">player4:</string>	
+	<string name="point">点</string>
+    
 </resources>
