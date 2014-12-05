@@ -16,5 +16,6 @@
 	<string name="player3">player3:</string>
 	<string name="player4">player4:</string>	
 	<string name="point">点</string>
+    <string name="result">0</string>
     
 </resources>

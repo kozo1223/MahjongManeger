@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#228b22"
     android:orientation="vertical" >
 
     <!-- ウマありなし -->
@@ -18,6 +19,7 @@
         android:id="@+id/btnGameStart"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/newGameStart" />
+        android:text="@string/newGameStart" 
+        android:background="#c0c0c0"/>
 
 </LinearLayout>

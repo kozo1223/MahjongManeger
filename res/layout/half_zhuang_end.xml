@@ -2,10 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#228b22"
     android:orientation="vertical" >
 
-    
     <!-- 得点入力ボタン -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,10 +20,32 @@
 
         <EditText
             android:id="@+id/edittext1"
-            android:layout_width="0dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="5dip"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="持ち点:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtResult1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,10 +67,32 @@
 
         <EditText
             android:id="@+id/edittext2"
-            android:layout_width="0dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="5dip"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="持ち点:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtResult2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,10 +114,32 @@
 
         <EditText
             android:id="@+id/edittext3"
-            android:layout_width="0dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="5dip"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="持ち点:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtResult3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,10 +161,32 @@
 
         <EditText
             android:id="@+id/edittext4"
-            android:layout_width="0dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="5dip"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="持ち点:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtResult4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"

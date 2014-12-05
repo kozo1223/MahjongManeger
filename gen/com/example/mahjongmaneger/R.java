@@ -27,19 +27,23 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000c;
+        public static final int action_settings=0x7f080010;
         public static final int btnEdit=0x7f080002;
-        public static final int btnEndGame=0x7f080009;
-        public static final int btnEndHalfGame=0x7f080008;
-        public static final int btnGameStart=0x7f08000b;
+        public static final int btnEndGame=0x7f08000d;
+        public static final int btnEndHalfGame=0x7f08000c;
+        public static final int btnGameStart=0x7f08000f;
         public static final int btnNew=0x7f080001;
         public static final int btnSet=0x7f080003;
-        public static final int checkbox=0x7f08000a;
+        public static final int checkbox=0x7f08000e;
         public static final int edittext1=0x7f080004;
-        public static final int edittext2=0x7f080005;
-        public static final int edittext3=0x7f080006;
-        public static final int edittext4=0x7f080007;
+        public static final int edittext2=0x7f080006;
+        public static final int edittext3=0x7f080008;
+        public static final int edittext4=0x7f08000a;
         public static final int mainScreen=0x7f080000;
+        public static final int txtResult1=0x7f080005;
+        public static final int txtResult2=0x7f080007;
+        public static final int txtResult3=0x7f080009;
+        public static final int txtResult4=0x7f08000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -63,6 +67,7 @@ public final class R {
         public static final int player3=0x7f05000c;
         public static final int player4=0x7f05000d;
         public static final int point=0x7f05000e;
+        public static final int result=0x7f05000f;
         public static final int showScore=0x7f050004;
         public static final int titleScreen=0x7f050005;
         public static final int uma=0x7f050009;
